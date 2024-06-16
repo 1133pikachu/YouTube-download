@@ -66,6 +66,6 @@ const youtubeURL = 'https://www.youtube.com/watch?v=VideoID';
 const videoOutputPath = 'video.mp4';
 const audioOutputPath = 'audio.webm'; // 元の音声ファイルをwebmに保存
 const audioConvertedOutputPath = 'audio.mp3'; // 変換後の音声ファイルをmp3に保存
-const finalOutputPath = 'FilePath.mp4';
+const finalOutputPath = 'videos/FilePath.mp4';
 
 downloadYouTubeVideo(youtubeURL, videoOutputPath, audioOutputPath, audioConvertedOutputPath, finalOutputPath);
